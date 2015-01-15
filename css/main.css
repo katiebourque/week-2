@@ -25,12 +25,31 @@ html {
 .clock-face {
   height: 300px;
   width: 300px;
+  background-image: url("../img/clock-face.svg");
+  margin: auto;
+  position: relative;
 }
 
 .hand {
   width: 14px;
+  position: absolute;
+  bottom: calc(50%);
+  left: calc(50% - 7px);
+  transform: rotate(360deg);
+
 }
 
+.hand-hour {
+  transform: rotate(360deg);
+}
 .center {
   width: 28px;
+  position: absolute;
+  bottom: calc(50% - 14px);
+  left: calc(50% - 14px);
+}
+
+.clock-face:hover .hand-hour {
+  transform: rotate(0deg);
+
 }
