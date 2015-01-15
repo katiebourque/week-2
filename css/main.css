@@ -65,6 +65,8 @@ html {
   display: inline-block;
   color: white;
   text-decoration: none;
+  margin-right: 1em;
+  margin-bottom: 1em;
 }
 
 
@@ -76,6 +78,7 @@ html {
   display: inline-block;
   color: white;
   text-decoration: none;
+  margin-bottom: 1em;
 }
 
 .backwards:hover {
